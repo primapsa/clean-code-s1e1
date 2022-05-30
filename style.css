@@ -26,7 +26,8 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task, .label {
+.task,
+.label {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -38,10 +39,13 @@
     margin:0;
     padding: 0px;
 }
-.list__item, .scheduler__title {
+.list__item,
+.scheduler__title {
     list-style:none;
 }
-.checkbox,.task, .btn{
+.checkbox,
+.task,
+.btn{
     outline:none;
 }
 .btn {
