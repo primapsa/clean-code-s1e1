@@ -9,13 +9,11 @@
 // Event handling, user interaction is what starts the code execution.
 
 //var taskInput=document.getElementById("new-task");//Add a new task.
-var taskInput=document.querySelector(".labled-input__input");
+var taskInput=document.querySelector(".item_mode_add .task");
 var addButton=document.getElementsByTagName("button")[0];//first button
-//var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
 var incompleteTaskHolder=document.querySelector(".list_type_incomplete")
-//var completedTasksHolder=document.getElementById("completed-tasks");//completed
 var completedTasksHolder=document.querySelector(".list_type_complete");//-tasks
-console.log(incompleteTaskHolder)
+
 
 //New task list item
 var createNewTaskElement=function(taskString){
