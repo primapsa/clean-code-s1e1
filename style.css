@@ -10,7 +10,7 @@
     display: block;
     text-align: right;
 }
-.header__picture {
+.header__img {
     width: 100%;
 }
 .header__link {
@@ -118,12 +118,12 @@
 .list__item > .task {
     width: 226px;
 }
-.btn_action_delete.btn__img {
+.btn_action_delete .btn__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.btn_action_delete.btn__img:hover {
+.btn_action_delete .btn__img:hover {
     transform: rotateZ(0);
 }
 
