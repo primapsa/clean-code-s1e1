@@ -11,15 +11,15 @@
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="page">
-      <div class="labled-input">
-        <label class="labled-input__label label" for="new-task">Add Item</label>
-        <div class="labled-input__wrapper">
-          <input class="labled-input__input task" id="new-task" type="text">
-          <button class="labled-input__buton btn">Add</button>
-        </div>
-      </div>
+      <h3 class="subtitle">Add Item</h3>
+      <ul class="list">        
+        <li class="list__item item_mode_add">
+          <input class="task" type="text">         
+          <button class="btn btn_action_add">Add</button>
+        </li>
+      </ul>
       <h3 class="subtitle">Todo</h3>
-      <ul class="list list_type_incomplete" id="incompleteTasks">
+      <ul class="list list_type_incomplete">
         <li class="list__item">
           <input class="checkbox" type="checkbox">
           <label class="label">Pay Bills</label>
@@ -40,7 +40,7 @@
         </li>
       </ul>
       <h3 class="subtitle">Completed</h3>
-      <ul class="list list_type_complete">
+      <ul class="list list_type_complete" id="incompleteTasks">
         <li class="list__item">
           <input class="checkbox" type="checkbox" checked>
           <label class="label">See the Doctor</label>
